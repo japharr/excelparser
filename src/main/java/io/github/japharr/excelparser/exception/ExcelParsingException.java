@@ -1,4 +1,4 @@
-package com.japharr.excelparser.exception;
+package io.github.japharr.excelparser.exception;
 
 public class ExcelParsingException extends RuntimeException {
 

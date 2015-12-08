@@ -1,4 +1,4 @@
-package com.japharr.excelparser.helper;
+package io.github.japharr.excelparser.helper;
 
 import lombok.Value;
 

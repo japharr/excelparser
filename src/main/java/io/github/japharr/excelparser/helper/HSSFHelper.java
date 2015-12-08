@@ -1,6 +1,6 @@
-package com.japharr.excelparser.helper;
+package io.github.japharr.excelparser.helper;
 
-import com.japharr.excelparser.exception.ExcelParsingException;
+import io.github.japharr.excelparser.exception.ExcelParsingException;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.ss.usermodel.Cell;

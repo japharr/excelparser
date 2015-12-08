@@ -1,8 +1,11 @@
-package com.japharr.excelparser;
+package io.github.japharr.excelparser;
 
-import com.japharr.excelparser.annotations.*;
-import com.japharr.excelparser.exception.ExcelParsingException;
-import com.japharr.excelparser.helper.HSSFHelper;
+import io.github.japharr.excelparser.annotations.ExcelField;
+import io.github.japharr.excelparser.annotations.ExcelObject;
+import io.github.japharr.excelparser.annotations.MappedExcelObject;
+import io.github.japharr.excelparser.exception.ExcelParsingException;
+import io.github.japharr.excelparser.helper.HSSFHelper;
+import io.github.japharr.excelparser.annotations.ParseType;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import org.apache.poi.ss.usermodel.Sheet;
